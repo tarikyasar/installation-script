@@ -28,8 +28,11 @@ then
     echo "Installing Firefox from homebrew..."
     brew install --cask firefox
     sleep 1
-    echo "Installing Spotify from homeebrew..."
+    echo "Installing Spotify from homebrew..."
     brew install --cask Spotify
+    sleep 1
+    echo "Installing Rectangle from homebrew..."
+    brew install --cask rectangle
     sleep 1
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
