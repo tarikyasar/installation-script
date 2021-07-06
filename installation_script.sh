@@ -51,7 +51,7 @@ else
     echo "Installation starts for Linux"
     sleep 1
     echo "Installing necessary tools..."
-    sudo apt install curl gcc make neofetch htop cmatrix vim zsh
+    sudo apt install curl gcc make neofetch htop cmatrix vim zsh apt-transport-https ca-certificates gnupg lsb-release
     sleep 1
     echo "Installing oh-my-zsh..."
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -66,6 +66,11 @@ else
     ./install.sh
     cd ..
     rm -rf fonts
+    sleep 1
+    echo "Installing docker..."
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    sudo apt-get update
+    sudo apt-get install docker-ce docker-ce-cli containerd.io
     echo "----------------------------------"
     echo "|             All Done!          |"
     echo "----------------------------------"
