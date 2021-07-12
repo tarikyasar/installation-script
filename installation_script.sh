@@ -39,8 +39,11 @@ then
     echo "Installing Docker from homebrew..."
     brew install --cask docker
     sleep 1
-    echo "Installing Alfred from Alfred..."
+    echo "Installing Alfred from homebrew..."
     brew install --cask alfred
+    sleep 1
+    echo "Installing Notion from homebrew..."
+    brew install --cask notion
     sleep 1
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
