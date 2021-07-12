@@ -5,6 +5,8 @@ kernel_name=$(uname)
 
 if [ "$kernel_name" = "Darwin" ];
 then
+    defaults write com.apple.dock autohide-delay -float 0; killall Dock
+    defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
     echo "Installation starts for macOS"
     sleep 1
     echo "Installing xcode command line tools..."
@@ -36,6 +38,9 @@ then
     sleep 1
     echo "Installing Docker from homebrew..."
     brew install --cask docker
+    sleep 1
+    echo "Installing Alfred from Alfred..."
+    brew install --cask alfred
     sleep 1
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
