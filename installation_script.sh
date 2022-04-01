@@ -12,11 +12,19 @@ then
     xcode-select --install
     echo "Installing homebrew..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    echo "Installing oh-my-zsh..."
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    exit
+#    echo "Installing oh-my-zsh..."
+#    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#    exit
     echo "Installing packages from homebrew..."
     brew install htop neofetch cocoapods
+    echo "Installing Android Studio..."
+    brew install --cask android-studio
+    echo "Installing Sourcetree..."
+    brew install --cask sourcetree
+    echo "Installing Telegram..."
+    brew install --cask telegram-desktop
+    echo "Installing VLC..."
+    brew install --cask vlc
     echo "Installing iTerm2..."
     brew install --cask iterm2
     echo "Installing Visual Studio Code from homebrew..."
@@ -24,13 +32,11 @@ then
     echo "Installing Firefox from homebrew..."
     brew install --cask firefox
     echo "Installing Spotify from homebrew..."
-    brew install --cask Spotify
+    brew install --cask spotify
     echo "Installing Rectangle from homebrew..."
     brew install --cask rectangle
     echo "Installing Docker from homebrew..."
     brew install --cask docker
-    echo "Installing Alfred from homebrew..."
-    brew install --cask alfred
     echo "Installing Notion from homebrew..."
     brew install --cask notion
     echo "Installing Discord from homebrew..."
@@ -40,7 +46,6 @@ then
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
     sh ~/.vim_runtime/install_awesome_vimrc.sh
-    sleep 1
     echo "Installing powerline fonts..."
     git clone https://github.com/powerline/fonts.git --depth=1
     cd fonts
