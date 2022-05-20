@@ -40,6 +40,8 @@ alias ls=lsd
 alias sudo='sudo -p "Password: "'
 ```
 
+## Extensions and Plugins
+
 ### Browser Extensions
 
 - [Dark Reader](https://darkreader.org/)
@@ -68,6 +70,8 @@ alias sudo='sudo -p "Password: "'
 - Rainbow Brackets
 - Xcode Theme
 - Xcode-Dark Theme
+
+## Terminal
 
 ### Terminal Tools
 
