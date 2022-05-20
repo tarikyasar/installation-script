@@ -29,6 +29,8 @@ then
     brew install --cask iterm2
     echo "Installing Visual Studio Code from homebrew..."
     brew install --cask visual-studio-code
+    echo "Installing Sublime Text from homebrew..."
+    brew install --cask sublime-text
     echo "Installing Firefox from homebrew..."
     brew install --cask firefox
     echo "Installing Spotify from homebrew..."
