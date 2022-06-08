@@ -1,7 +1,7 @@
 # Installations
 
 ## Common Installations
-- Amix's [Vim Configuration](https://github.com/amix) (I also add ```set number``` parameter to .vimrc file)
+- Amix's [Vim Configuration](https://github.com/amix) (I also add ``set number`` parameter to .vimrc file)
 - [Android Studio](https://developer.android.com/studio)
 - [Telegram Desktop](https://desktop.telegram.org/)
 - [VLC](https://www.videolan.org/vlc/)
@@ -15,7 +15,7 @@
 - [Discord](https://discord.com/)
 - [Balena Etcher](https://www.balena.io/etcher/)
 
-## MacOS Installations
+## MacOS Installations
 - [Homebrew](https://brew.sh/)
 - [Sourcetree](https://www.sourcetreeapp.com/)
 - [iTerm2](https://iterm2.com/)
@@ -26,18 +26,18 @@
 
 ### MacOS Configuration
 - Run following commands to disable dock hide/show animation:
-```
+``
 defaults write com.apple.dock autohide-delay -float 0; killall Dock
 defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
-```
+``
 - Enable status bar in iTerm2 (It's in session tab)
 - Add following lines to .zshrc:
-```
+``
 alias ls=lsd
 alias sudo='sudo -p "Password: "'
-```
+``
 
-## Extensions and Plugins
+## Extensions and Plugins
 
 ### Browser Extensions
 - [Dark Reader](https://darkreader.org/)
@@ -57,7 +57,7 @@ alias sudo='sudo -p "Password: "'
 - [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### Android Studio Plugins
+### Android Studio Plugins
 - Atom Material Icons
 - Atom OneDark Theme
 - Mario Progress Bar
@@ -65,15 +65,15 @@ alias sudo='sudo -p "Password: "'
 - Xcode Theme
 - Xcode-Dark Theme
 
-## Terminal
+## Terminal
 
-### Terminal Tools
+### Terminal Tools
 - [htop](https://github.com/htop-dev/htop)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [onefetch](https://github.com/o2sh/onefetch)
 - [lsd](https://github.com/Peltoche/lsd)
 
-### Shell
+### Shell
 - [zsh](https://ohmyz.sh/)
 
 ### Font
