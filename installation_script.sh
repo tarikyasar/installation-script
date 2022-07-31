@@ -15,6 +15,7 @@ then
 #    echo "Installing oh-my-zsh..."
 #    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #    exit
+    echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc && source ~/.zshrc
     echo "Installing packages from homebrew..."
     brew install htop neofetch cocoapods
     echo "Installing Android Studio..."
