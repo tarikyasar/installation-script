@@ -46,6 +46,8 @@ then
     brew install --cask discord
     echo "Installing Balena Etcher from homebrew..."
     brew install --cask balenaetcher
+    echo "Installing AltTab froom homebrew..."
+    brew install --cask alt-tab
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
     sh ~/.vim_runtime/install_awesome_vimrc.sh

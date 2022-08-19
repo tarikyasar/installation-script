@@ -31,6 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikyasar/installation-sc
 - [CocoaPods](https://cocoapods.org/)
 - [Mos](https://mos.caldis.me/)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- [AltTab](https://alt-tab-macos.netlify.app/)
 
 ### MacOS Configuration
 
