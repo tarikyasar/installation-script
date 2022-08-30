@@ -88,3 +88,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikyasar/installation-sc
 ### Font
 
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+
+### Colors Schemes
+- [iTerm Color Scheme - Everforest](https://github.com/icewind/everforest.iterm2)
+- [Vim Color Scheme - Everforest](https://vimcolorschemes.com/sainnhe/everforest)
