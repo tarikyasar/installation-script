@@ -32,6 +32,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tarikyasar/installation-sc
 - [Mos](https://mos.caldis.me/)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - [AltTab](https://alt-tab-macos.netlify.app/)
+- [Silicio](https://apps.apple.com/tr/app/silicio-mini-player/id933627574?mt=12)
+- [CopyClip](https://apps.apple.com/tr/app/copyclip-clipboard-history/id595191960?mt=12)
+- [PyCharm CE](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=macM1&code=PCC)
+
 
 ### MacOS Configuration
 

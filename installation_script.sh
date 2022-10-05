@@ -18,6 +18,8 @@ then
     echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.zshrc && source ~/.zshrc
     echo "Installing packages from homebrew..."
     brew install htop neofetch cocoapods
+    echo "Installing Alfred..."
+    brew install --cask alfred
     echo "Installing Android Studio..."
     brew install --cask android-studio
     echo "Installing Sourcetree..."
@@ -46,7 +48,7 @@ then
     brew install --cask discord
     echo "Installing Balena Etcher from homebrew..."
     brew install --cask balenaetcher
-    echo "Installing AltTab froom homebrew..."
+    echo "Installing AltTab from homebrew..."
     brew install --cask alt-tab
     echo "Installing vim configuration..."
     git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
